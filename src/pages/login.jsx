@@ -1,8 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import AuthLayouts from "../components/Layouts/AuthLayouts";
 import FormLogin from "../components/Fragments/FormLogin";
 const LoginPage = () => {
   return (
-    <AuthLayouts title="Login">
+    <AuthLayouts title="Login" type="login">
       <FormLogin />
     </AuthLayouts>
   );
